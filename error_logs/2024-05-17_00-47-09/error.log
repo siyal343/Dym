@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\botasaurus\decorators.py", line 562, in run_task
+    result = func(driver, data)
+             ^^^^^^^^^^^^^^^^^^
+TypeError: scrape_dym_task() takes 1 positional argument but 2 were given

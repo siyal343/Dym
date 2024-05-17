@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\botasaurus\decorators.py", line 562, in run_task
+    result = func(driver, data)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mushii\AppData\Local\Temp\ipykernel_16960\3960594892.py", line 40, in scrape_dym_task
+    links = get_tx_links(page, driver)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mushii\AppData\Local\Temp\ipykernel_16960\3960594892.py", line 15, in get_tx_links
+    all_href = table[0].find_all("a")
+               ~~~~~^^^
+IndexError: list index out of range

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\botasaurus\decorators.py", line 562, in run_task
+    result = func(driver, data)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mushii\AppData\Local\Temp\ipykernel_16960\742431559.py", line 8, in scrape_address_task
+    driver.click("div.col-sm-6:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > span:nth-child(1)")
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\botasaurus\anti_detect_driver.py", line 253, in click
+    raise NoSuchElementException(f"Cannot locate element with selector: {selector}")
+selenium.common.exceptions.NoSuchElementException: Message: Cannot locate element with selector: div.col-sm-6:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > span:nth-child(1)
+

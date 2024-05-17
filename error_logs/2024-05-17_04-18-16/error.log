@@ -1,0 +1,42 @@
+Traceback (most recent call last):
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\botasaurus\decorators.py", line 562, in run_task
+    result = func(driver, data)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mushii\AppData\Local\Temp\ipykernel_16960\2623575766.py", line 49, in scrape_dym_task
+    links.append(get_tx_links(driver))
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mushii\AppData\Local\Temp\ipykernel_16960\2623575766.py", line 11, in get_tx_links
+    page = driver.page_source
+           ^^^^^^^^^^^^^^^^^^
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 540, in page_source
+    return self.execute(Command.GET_PAGE_SOURCE)['value']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.208)
+Stacktrace:
+	GetHandleVerifier [0x00D3C113+48259]
+	(No symbol) [0x00CCCA41]
+	(No symbol) [0x00BC0A17]
+	(No symbol) [0x00B9E02B]
+	(No symbol) [0x00C2742E]
+	(No symbol) [0x00C39476]
+	(No symbol) [0x00C20B36]
+	(No symbol) [0x00BF570D]
+	(No symbol) [0x00BF62CD]
+	GetHandleVerifier [0x00FF65A3+2908435]
+	GetHandleVerifier [0x01033BBB+3159851]
+	GetHandleVerifier [0x00DD50CB+674875]
+	GetHandleVerifier [0x00DDB28C+699900]
+	(No symbol) [0x00CD6244]
+	(No symbol) [0x00CD2298]
+	(No symbol) [0x00CD242C]
+	(No symbol) [0x00CC4BB0]
+	BaseThreadInitThunk [0x75B8FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x773D7C5E+286]
+	RtlGetAppContainerNamedObjectPath [0x773D7C2E+238]
+

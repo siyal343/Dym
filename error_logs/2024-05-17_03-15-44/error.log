@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\botasaurus\decorators.py", line 562, in run_task
+    result = func(driver, data)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mushii\AppData\Local\Temp\ipykernel_16960\634347096.py", line 53, in scrape_dym_task
+    driver.click(links[i])
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\botasaurus\anti_detect_driver.py", line 253, in click
+    raise NoSuchElementException(f"Cannot locate element with selector: {selector}")
+selenium.common.exceptions.NoSuchElementException: Message: Cannot locate element with selector: a[href='/tx/5E5EED6E813BEB26F728C0B8BC1CF22B9E73625C3E4AA59F30347E07D673623A']
+

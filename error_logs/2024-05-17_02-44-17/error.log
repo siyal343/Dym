@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\botasaurus\decorators.py", line 562, in run_task
+    result = func(driver, data)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mushii\AppData\Local\Temp\ipykernel_16960\3745285251.py", line 48, in scrape_dym_task
+    write_file(addresses, "addresses.csv")
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\botasaurus\utils.py", line 257, in write_file
+    fp.write(data)
+TypeError: write() argument must be str, not list

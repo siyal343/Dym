@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\botasaurus\decorators.py", line 570, in run_task
+    close_driver(driver)
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\botasaurus\decorators.py", line 351, in close_driver
+    driver.close()
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 551, in close
+    self.execute(Command.CLOSE)
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00D3C113+48259]
+	(No symbol) [0x00CCCA41]
+	(No symbol) [0x00BC08A3]
+	(No symbol) [0x00BF4C5A]
+	(No symbol) [0x00C20C0A]
+	(No symbol) [0x00C1C0AF]
+	(No symbol) [0x00C1BBD7]
+	(No symbol) [0x00B95295]
+	(No symbol) [0x00B9568E]
+	(No symbol) [0x00B95B0D]
+	GetHandleVerifier [0x00FF65A3+2908435]
+	GetHandleVerifier [0x01033BBB+3159851]
+	GetHandleVerifier [0x00DD50CB+674875]
+	GetHandleVerifier [0x00DDB28C+699900]
+	(No symbol) [0x00CD6244]
+	(No symbol) [0x00B94E37]
+	(No symbol) [0x00B94655]
+	GetHandleVerifier [0x0108749C+3502092]
+	BaseThreadInitThunk [0x75B8FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x773D7C5E+286]
+	RtlGetAppContainerNamedObjectPath [0x773D7C2E+238]
+

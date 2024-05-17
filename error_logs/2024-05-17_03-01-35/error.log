@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\botasaurus\decorators.py", line 562, in run_task
+    result = func(driver, data)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mushii\AppData\Local\Temp\ipykernel_16960\1548109775.py", line 54, in scrape_dym_task
+    get_url(url)
+TypeError: get_url() missing 1 required positional argument: 'driver'
