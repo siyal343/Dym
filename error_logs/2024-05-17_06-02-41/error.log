@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\botasaurus\decorators.py", line 562, in run_task
+    result = func(driver, data)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mushii\AppData\Local\Temp\ipykernel_16960\1898308253.py", line 9, in scrape_address_task
+    driver.click(".row-msg-summary")
+  File "c:\ProgramData\miniconda3\envs\bota\Lib\site-packages\botasaurus\anti_detect_driver.py", line 253, in click
+    raise NoSuchElementException(f"Cannot locate element with selector: {selector}")
+selenium.common.exceptions.NoSuchElementException: Message: Cannot locate element with selector: .row-msg-summary
+
